@@ -15,20 +15,20 @@ function logout() {
 // Your existing event handling code here
 const events = [
     {
-        title: "Music Festival",
-        date: "2023-10-15",
+        title: "Classic Music Fest",
+        date: "2025-02-15",
         time: "18:00",
-        location: "City Park",
+        location: "Hyderabad", // Updated location
         description: "Join us for a night of music and fun!",
         timings: "6 PM - 11 PM",
-        ticketPrice: "$20",
+        ticketPrice: "Starting from 2000rs",
         organizer: "City Events Team"
     },
     {
         title: "Art Exhibition",
-        date: "2023-10-20",
+        date: "2025-01-20",
         time: "10:00",
-        location: "Art Gallery",
+        location: "Vizag", // Updated location
         description: "Explore the latest art from local artists.",
         timings: "10 AM - 5 PM",
         ticketPrice: "Free",
@@ -36,29 +36,29 @@ const events = [
     },
     {
         title: "Movie Pre-Release Event",
-        date: "2023-11-01",
+        date: "2025-01-09",
         time: "19:00",
-        location: "Downtown Cinema",
+        location: "Vijayawada", // Updated location
         description: "Be the first to watch the latest blockbuster before its official release!",
         timings: "7 PM - 10 PM",
-        ticketPrice: "$15",
-        organizer: "Film Enthusiasts Club"
+        ticketPrice: "500rs-10000rs",
+        organizer: "Sai pavan media"
     },
     {
         title: "Music Festival",
-        date: "2023-11-10",
+        date: "2025-01-19",
         time: "14:00",
-        location: "Riverfront Park",
+        location: "Bhimavaram", // Updated location
         description: "A day filled with live music from various artists and bands.",
         timings: "2 PM - 10 PM",
-        ticketPrice: "$30",
+        ticketPrice: "3000rs-10000rs",
         organizer: "Music Lovers Association"
     },
     {
         title: "Book Fair",
-        date: "2023-11-15",
+        date: "2025-01-15",
         time: "09:00",
-        location: "Convention Center",
+        location: "Hyderabad", // Updated location
         description: "Discover new books and meet your favorite authors at the annual book fair.",
         timings: "9 AM - 5 PM",
         ticketPrice: "Free",
@@ -66,12 +66,12 @@ const events = [
     },
     {
         title: "Charity Event",
-        date: "2023-11-25",
+        date: "2025-01-25",
         time: "18:00",
-        location: "Community Hall",
+        location: "Vizag", // Updated location
         description: "Join us for a charity dinner to support local families in need.",
         timings: "6 PM - 9 PM",
-        ticketPrice: "$50",
+        ticketPrice: "5000rs",
         organizer: "Helping Hands Organization"
     }
 ];
