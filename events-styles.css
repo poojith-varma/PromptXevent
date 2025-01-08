@@ -10,14 +10,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url("https://img.freepik.com/premium-photo/asian-musician-playing-guitar-black-background-with-spot-light_38052-71.jpg") no-repeat center center fixed;
+    background: url("https://th.bing.com/th/id/R.2937eac55707210de335a1bce6785a63?rik=N0609lstBzfivQ&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-5%2fWhite-Background-Widescreen-Wallpapers-16578.jpg&ehk=teM6Y2PPhOf4GCZ8A5bf31P9ZqPWJoI2ot7T4855bm0%3d&risl=&pid=ImgRaw&r=0") no-repeat center center fixed;
     background-size: cover; /* Ensures the image covers the entire screen */
     color: #fff; /* Sets a default text color for readability on the dark background */
 }
 
 /* Header */
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent header background */
+    background-color: rgba(2, 2, 2, 0.856); /* Semi-transparent header background */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -47,18 +47,18 @@ h1 {
 .event {
     flex: 1 1 calc(33.333% - 40px);
     box-sizing: border-box;
-    background: rgba(22, 22, 22, 0.9); /* Slightly transparent white background */
+    background: rgba(180, 176, 176, 0.9); /* Slightly transparent white background */
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(210, 207, 207, 0.1);
     text-align: center;
-    color: #626161;
+    color: #c4baba;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .event:hover {
     transform: translateY(-5px); /* Subtle hover effect */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(231, 229, 229, 0.2);
 }
 
 .event h2 {
@@ -70,12 +70,12 @@ h1 {
 .event p {
     margin: 5px 0;
     font-size: 0.9em;
-    color: #555;
+    color: #636364;
 }
 
 .event button {
     background-color: #393b3d;
-    color: white;
+    color: rgb(224, 219, 219);
     border: none;
     padding: 10px 15px;
     margin-top: 10px;
@@ -130,7 +130,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #5c5656;
+    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -233,17 +233,21 @@ body {
 
 /* Event List */
 .event {
-    background: #fff;
+    background: #f9f9f9; /* Fallback color */
+    background-image: url('https://th.bing.com/th/id/R.66e97d19d32eec159faefdfc7df10266?rik=PbsEmkvGQJbcLQ&riu=http%3a%2f%2fwww.gvntmc.com%2fwp-content%2fuploads%2f2016%2f07%2fSavin-NY-Website-Background-Web.jpg&ehk=ETLy19zuHE%2blSjn3JyjQP7Y6RscHZGmQnwakl2xA3RE%3d&risl=&pid=ImgRaw&r=0'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire element */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #531313;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(197, 194, 194, 0.1);
 }
 
 .event h2 {
     margin: 0 0 10px;
-    color: #007bff;
+    color: #3b4665;
 }
 
 .event p {
